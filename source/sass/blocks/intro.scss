@@ -12,7 +12,7 @@
     }
   }
 
-  @media (min-width: var.$tablet-width) {
+  @media (min-width: var.$tablet-width) and (max-width: 1199px) {
     padding: 77px 154px 55px;
     background: url("../../img/index-img/hero-bg-tablet.jpg") no-repeat;
 

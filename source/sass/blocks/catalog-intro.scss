@@ -14,7 +14,7 @@
     }
   }
 
-  @media (min-width: var.$tablet-width) {
+  @media (min-width: var.$tablet-width) and (max-width: 1199px) {
     padding: 95px 0 81px;
     background: url("../../img/hero-bg-tab.jpg") no-repeat 0 -56px;
 
