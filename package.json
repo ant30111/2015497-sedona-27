@@ -2,11 +2,13 @@
   "name": "sedona-27",
   "private": true,
   "description": "Личный проект «Седона» от HTML Academy",
+  "homepage": "https://ant30111.github.io/2015497-sedona-27/",
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "1.0.0",
     "autoprefixer": "10.4.0",
     "browser-sync": "2.27.7",
     "del": "^7.0.0",
+    "gh-pages": "^5.0.0",
     "gulp": "4.0.2",
     "gulp-dart-sass": "^1.0.2",
     "gulp-htmlmin": "^5.0.1",
@@ -23,6 +25,8 @@
     "stylelint-config-htmlacademy": "0.1.11"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "editorconfig": "editorconfig-cli",
     "stylelint": "stylelint \"source/sass/**/*.scss\" --syntax scss",
     "lint": "npm run editorconfig && npm run stylelint",
