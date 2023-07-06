@@ -5,28 +5,28 @@
 
   @media (max-width: 767px) {
     padding: 90px 19px 37px;
-    background: url("../../img/index-img/hero-bg-mobile.jpg") no-repeat;
+    background: url("../img/index-img/hero-bg-mobile.jpg") no-repeat;
 
     @media (min-resolution: var.$retina) {
-      background: url("../../img/index-img/hero-bg-mobile@2x.jpg") no-repeat 0 0 /100% 389px;
+      background: url("../img/index-img/hero-bg-mobile@2x.jpg") no-repeat 0 0 /100% 389px;
     }
   }
 
   @media (min-width: var.$tablet-width) and (max-width: 1199px) {
     padding: 77px 154px 55px;
-    background: url("../../img/index-img/hero-bg-tablet.jpg") no-repeat;
+    background: url("../img/index-img/hero-bg-tablet.jpg") no-repeat;
 
     @media (min-resolution: var.$retina) {
-      background: url("../../img/index-img/hero-bg-tablet@2x.jpg") no-repeat 0 0 /100% 518px;
+      background: url("../img/index-img/hero-bg-tablet@2x.jpg") no-repeat 0 0 /100% 518px;
     }
   }
 
   @media (min-width: var.$desktop-width) {
     padding: 78px 370px 44px;
-    background: url("../../img/index-img/hero-bg-desktop.jpg") no-repeat;
+    background: url("../img/index-img/hero-bg-desktop.jpg") no-repeat;
 
     @media (min-resolution: var.$retina) {
-      background: url("../../img/index-img/hero-bg-desktop@2x.jpg") no-repeat 0 0 /100% 518px;
+      background: url("../img/index-img/hero-bg-desktop@2x.jpg") no-repeat 0 0 /100% 518px;
     }
   }
 
@@ -36,17 +36,17 @@
     bottom: 33px;
     width: 100%;
     height: 57px;
-    background: url("../../img/devider-mobile.svg") no-repeat;
+    background: url("../img/divider-mobile.svg") no-repeat;
     content: "";
 
     @media (min-width: var.$tablet-width) {
       bottom: 49px;
-      background: url("../../img/devider-tablet.svg") no-repeat;
+      background: url("../img/divider-tablet.svg") no-repeat;
     }
 
     @media (min-width: var.$desktop-width) {
       bottom: 61px;
-      background: url("../../img/devider-desktop.svg") no-repeat;
+      background: url("../img/divider-desktop.svg") no-repeat;
     }
   }
 
